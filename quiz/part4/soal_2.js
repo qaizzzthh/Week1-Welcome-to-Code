@@ -3,15 +3,16 @@
 
 //bikin fungsinya disini
 
-function perkalian(num1, num2){
-    num1 = 1
-    num2 = 2
-    hasilPerkalian = num1*num2;
-    console.log(hasilPerkalian);
+function calculateMultiply(num1, num2) {
+    return num1*num2
 }
-// ------------------------------------
-console.log(perkalian())
-// -----------------------------------
 
-//Output
-//2
+let num1 = 1
+let num2 = 2
+
+let hasilPerkalian = calculateMultiply(num1,num2);
+console.log(hasilPerkalian);
+
+// ------------------------------------
+console.log('')
+// -----------------------------------

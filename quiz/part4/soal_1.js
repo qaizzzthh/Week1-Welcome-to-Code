@@ -3,14 +3,12 @@
 // yang kemudian akan ditampilkan di console.
 
 //bikin fungsinya disini
-
-function shoutOut(){
-    console.log("Halo Function!")
+function shoutOut() {
+    return `Hallo Function!`
 }
 
-// ------------------------------------
-console.log(shoutOut())
-// ------------------------------------
+console.log(shoutOut());
 
-//Output
-//Halo Function!
+// ------------------------------------
+console.log('')
+// ------------------------------------
